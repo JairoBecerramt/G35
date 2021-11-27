@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiciosActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="#6EBDE1"
+            android:text="  ADVENTURE" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="match_parent"
+            android:layout_height="127dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:background="#3781BC"
+            android:text="SERVICIOS" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="398dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="109dp">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="166dp"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="181dp"
+                    android:layout_height="match_parent"
+                    android:text="Te vendemos a domicilio, mira nuestros diseños y te la enviamos sin costo" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="215dp"
+                    android:layout_height="match_parent"
+                    android:text="Recibimos todas las tarjetas y medios de pago" />
+
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="168dp"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="365dp"
+                android:layout_height="117dp">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:srcCompat="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="181dp"
+                    android:layout_height="match_parent"
+                    android:text="Te ayudamos a diseñar tu nueva chaqueta" />
+            </TableRow>
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#6EBDE1"
+                android:text="Contactanos  Phone +57 325412546" />
+
+            <Button
+                android:id="@+id/boton6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Main" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
